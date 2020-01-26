@@ -15,8 +15,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/magicink/com.pyxlmedia.json.git"
-  },
-  "scripts": {
-    "patch": "npm version patch --no-git-tag-version"
   }
 }
