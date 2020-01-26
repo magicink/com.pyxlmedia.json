@@ -4,9 +4,7 @@
   "version": "0.0.2",
   "unity": "2019.3",
   "release": "0f5",
-  "author": {
-    "name": "Brandon Tom",
-  },
+  "author": "Brandon Tom",
   "description": "Tools for working with JSON in Unity.",
   "keywords": [
     "JSON"
