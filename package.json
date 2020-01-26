@@ -7,7 +7,6 @@
   "author": {
     "name": "Brandon Tom",
   },
-  "license": "UNLICENSED",
   "description": "Tools for working with JSON in Unity.",
   "keywords": [
     "JSON"
