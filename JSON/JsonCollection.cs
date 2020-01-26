@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace PyxlMedia.JSON
+namespace JSON
 {
     /// <summary>
     /// A tool that helps Unity parse JSON arrays.
