@@ -1,0 +1,16 @@
+{
+  "name": "com.pyxlmedia.json",
+  "displayName": "PyxlMedia JSON",
+  "version": "0.0.1",
+  "unity": "2019.3",
+  "release": "0f5",
+  "author": "Brandon Tom",
+  "description": "Tools for working with JSON in Unity.",
+  "keywords": [
+    "JSON"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/magicink/com.pyxlmedia.json.git"
+  }
+}
