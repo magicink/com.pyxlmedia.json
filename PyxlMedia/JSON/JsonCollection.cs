@@ -12,7 +12,7 @@ namespace PyxlMedia.JSON
         [Serializable]
         private class Wrapper<T>
         {
-            public T[] items;
+            public T[] data;
         }
             
         /// <summary>
@@ -23,9 +23,9 @@ namespace PyxlMedia.JSON
         /// <returns>A collection of T</returns>
         public static IEnumerable<T> FromJson<T>(string json)
         {
-            json = $"{{\"items\":{json}}}";
+            json = $"{{\"data\":{json}}}";
             var wrapper = JsonUtility.FromJson<Wrapper<T>>(json);
-            return wrapper.items;
+            return wrapper.data;
         }
     }
 }
